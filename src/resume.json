@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Abdalkarim Akilan",
-    "label": "Full-Stack Developer | Spring | Angular | Java | TypeScript ",
+    "name": "Ahmad Akilan",
+    "label": "Software Engineer | Backend | DevOps | Analytics",
     "picture": "",
-    "email": "abd.akilan@hotmail.com",
-    "phone": "",
-    "website": "https://aboodz.github.io/",
-    "summary": "A dedicated and detail-oriented full stack software developer with over six years of hands-on experience building performant and user-friendly web applications. An enthusiastic learner who never stops seeking new knowledge. Skilled in modern web applications architecture and expert in various open-source backend technologies, front-end frameworks, and tools. Looking for an exciting opportunity to grow my career and expand my knowledge working in a technology-driven company.",
+    "email": "asakilan@live.com",
+    "phone": "+971 50 3336685",
+    "website": "",
+    "summary": "Software Engineer with eight years of professional experience. Through my career, I have worked on many fields and technologies including analytics, API development, DevOps, and a bit of frontend. My versatile skills helps me identify the right tool for the job. It helps me understand and connect with team members from different specialties. I am looking forward to applying my knowledge on software projects of a large scale and challenging nature.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -18,68 +18,100 @@
     "profiles": [
       {
         "network": "GitHub",
-        "username": "aboodz",
-        "url": "https://github.com/aboodz"
-      },
-      {
-        "network": "Stackoverflow",
-        "username": "aboodz",
-        "url": "https://stackoverflow.com/u/3853283"
+        "username": "alc0der",
+        "url": "https://github.com/alc0der"
       },
       {
         "network": "LinkedIn",
-        "username": "aboodz",
-        "url": "https://linkedin.com/in/aboodz"
+        "username": "alc0der",
+        "url": "https://linkedin.com/in/asakilan"
       }
     ]
   },
   "work": [
     {
-      "name": "Majid Al Futtaim",
-      "position": "Full-Stack Developer - Payments",
-      "website": "https://majidalfuttaim.com",
+      "name": "Beno Technologies",
+      "position": "Software Engineering Lead",
+      "website": "https://beno.com",
       "location": "Dubai, United Arab Emirates",
-      "description": "Majid Al Futtaim is the leading shopping mall, communities, retail and leisure pioneer across the Middle East, Africa and Asia.",
-      "startDate": "2018-12-04",
-      "summary": "Working as part of the core team to build MAF Payments, a Payment Gateway, that processes and settle payments from customers to merchants",
+      "description": "Beno Technologies is a Dubai based startup company in the domain of rental cars",
+      "startDate": "2018-01-15",
+      "summary": "  I have helped in containing legacy version of the application, and then shift the application to a completely new direction based on Global Distribution Systems (GDS).",
       "highlights": [
-        "Leading the development of an Angular based PG (payment gateway) portal that supports merchants and other internal users.",
-        "Building several backend components including a WebFlux BFF (backend for frontend) component, a Serverless API Gateway, and WebFlux authentication system.",
-        "Contributed in updating and migrating beam app components, a digital wallet application, and ensuring a smooth sunset plan.",
-        "Engaging in technical discussions with fellow developers and DevOps.",
-        "Mentoring junior developer and new team recruits to continuously improve their technical skills."
+        "Designed system architecture and deployment landscape using Structurizr",
+        "Conducted code reviews for backend (Spring), frontend (Angular), and Android",
+        "Guided developers into improving coding practice with testing, mocking, and documenting",
+        "Migrated Infrastructure from Multiple AWS Regions to Bahrain Region",
+        "Maintained CICD pipelines, and AWS administration "
       ]
     },
     {
-      "name": "Mondia",
-      "position": "Fullstack Developer",
-      "website": "https://mondia.com",
+      "name": "ROAMWORKS",
+      "position": "Software Engineering Lead",
+      "website": "https://roamworks.com",
       "location": "Dubai, United Arab Emirates",
-      "description": "Mondia provides VAS platforms for teleco operators",
-      "startDate": "2014-04-13",
-      "endDate": "2018-11-01",
-      "summary": "Leading the development of digital entertainment portals ensuring high code quality, fast runtime performance, and easy application operation.",
+      "description": "ROAMWORKS is a Dubai-Germany based company ",
+      "startDate": "2018-01-01",
+      "endDate": "2019-01-09",
+      "summary": "I have led the department during time of technology migration towards micro-services event-driven architecture.",
       "highlights": [
-        "Migrated products from JSP based web pages to a modern SPA/PWA web application that offers an enhanced user experience.",
-        "Implemented reusable Angular components base that significantly reduced time required for lunching new products and reduced the maintenance cost.",
-        "Built BFF server to facilitate authentication, API response caching, and result aggregation",
-        "Shared knowledge and assisted offshore team translating projects requirements into technical tasks."
+        "Supported the development of micro-services through automation of builds, integration testing, deployment, and configuration",
+        "Developed IoT data ingestion micro-service using Spring Cloud Stream",
+        "Developed event driven micro-services that utilize Azure EventHub",
+        // "Developed customizations and extensions for ThingsBoard",
+        "Wrapped legacy applications in Docker containers",
+        "Created bash scripts and Jenkins pipelines to automate micro-services deployment",
+        // "Monitored applications using Azure Logs Analytics"
       ]
     },
     {
-      "name": "Fujitsu Consulting",
-      "position": "Freelancer - UI Customization",
+      "name": "ROAMWORKS",
+      "position": "BI Software Engineer",
+      "website": "https://roamworks.com",
+      "location": "Dubai, United Arab Emirates",
+      "description": "ROAMWORKS is a Dubai-Germany based company 15+ years company in the field of M2M and IoT. They are solution provider for large entities such as DEWA, and Emirates",
+      "startDate": "2012-08-02",
+      "endDate": "2016-12-31",
+      "summary": "I was tasked to replace legacy analytics stack with a new open source based stack. The new analytics stack was successfully applied deployments across the landscape. The new stack allowed analytics for more than 2000 vehicles.",
+      "highlights": [
+        "Created powershell scripts to automate SSRS deployments",
+        "Developed a new custom web portal for reports on top of SSRS's reports portal",
+        "Used ELK to optimize Database and ETL performance",
+        "Developed complex BI reports with complex SQL",
+        "Developed a large data warehouse for fleet management IoT analytics"
+      ]
+    },
+    {
+      "name": "Fujitsu",
+      "position": "IT Consultant",
       "website": "https://fujitsu.com",
       "location": "Al Ain, United Arab Emirates",
-      "description": "",
-      "startDate": "2013-06-01",
-      "endDate": "2013-09-01",
-      "summary": "Worked as a freelancer before receiving bachelor’s degree. The project is to configure l10n and i18n for SAP Strategy Management.",
+      "description": "Fujitsu is one of the largest technology providers in Japan and worldwide. Their profile ranges from hardware to IT services.",
+      "startDate": "2012-02-01",
+      "endDate": "2016-05-31",
+      "summary": "I have delivered a large enterprise implementation project of SAP Analytics and SAP EPM suits",
       "highlights": [
-        "Application internationalization for RTL and reporting.",
-        "Configure Arabic localization messages and labels",
-        "Applying organization styles guide lines to change the look and feel of the application.",
-        "Extending and customizing existing features."
+        "Designed, implemented, and manged code customization for SAP Performance Management",
+        // "Assisted in re-engineering business processes",
+        // "Integrated SAP Solutions with MS Office",
+        "Integrated SAP Analytics with MS Active Directory Kerberos",
+        "Managed software components life cycle with SAP Analytics LCM",
+        "Maintained DB schema design and migration changes for Oracle DB",
+        "Integration SAP Analytics with HP Monitoring"
+      ]
+    },
+    {
+      "name": "MBC",
+      "position": "Web Developer",
+      "website": "https://mbc.net",
+      "location": "Dubai, United Arab Emirates",
+      "description": "MBC is the most popular tv channel in the middle east. The group holds many other tv channels, production companies and streaming services.",
+      "startDate": "2012-02-01",
+      "endDate": "2016-05-31",
+      "summary": "I have worked on migrating micro-sites from old CMS to new CMS.",
+      "highlights": [
+        "Developed frontend websites with plain HTML and CSS",
+        "UI test automation using SeleniumHQ tools"
       ]
     }
   ],
@@ -87,17 +119,25 @@
     {
       "institution": "American University of Sharjah | Sharjah, United Arab Emirates",
       "url": "https://aus.edu",
-      "area": "Computer Science",
+      "area": "Computer Engineering",
       "studyType": "Bachelor of Science",
-      "startDate": "2010-01-01",
-      "endDate": "2014-01-25",
+      "startDate": "2008-01-01",
+      "endDate": "2012-01-01",
       "gpa": "2.58",
       "courses": [
-        "CMP416 - Internet and Network Computing",
         "CMP305 - Data Structures and Algorithms",
-        "CMP235 - Ethics for Computing Info Tech",
         "CMP352 - Human Computer Interaction"
       ]
+    },
+    {
+      "institution": "University of Wollongong | Dubai, United Arab Emirates",
+      "url": "https://uowdubai.ac.ae",
+      "area": "Information Technology Management",
+      "studyType": "Master of Science",
+      "startDate": "2008-01-01",
+      "endDate": "2012-01-01",
+      "gpa": "2.58",
+      "courses": []
     }
   ],
   "skills": [
@@ -109,95 +149,121 @@
         "Object Oriented Programming",
         "Functional Programming",
         "Test Driven Development",
-        "Progressive Web Apps",
-        "Responsesive Layouts",
+        "Behavior Driven Development",
         "Internationalization and Localization",
-        "Microservice Architecture"
+        "Micro-services Architecture",
+        "Event Driven",
+        "Restful Web Services",
+
+
+        // Analytics Development Techniques
+        "Data Vault",
+        "Data Lakes",
+        "Data Marts",
+        "Lambda Architecture"
       ]
     },
+    // {
+    //   "name": "Analytics Development Techniques",
+    //   "level": "Advanced",
+    //   "keywords": [
+    //     "Data Vault",
+    //     "Data Lakes",
+    //     "Data Marts",
+    //     "Lambda Architecture"
+    //   ]
+    // },
     {
       "name": "Main Backend Stack",
+      "level": "Advanced",
       "keywords": [
-        "Maven",
-        "Spring (boot, WebFlux, Cloud, Web, Security, data, core, portlet MVC)",
-        "JAX-RS",
-        "JPA (Hibernate)",
-        "jUnit",
+        "Gradle",
+        "Spring (boot, WebFlux, Cloud, Web, Security, data, core)",
         "SQL (MySQL, Postgres)",
-        "MongoDB"
+        "MongoDB",
+        "OAuth",
+        "MQTT",
+        "Kafka"
       ]
     },
     {
-      "name": "Main Frontend Stack",
+      "name": "Analytics Development Tools",
+      "level": "Advanced",
       "keywords": [
-        "Angular",
-        "RxJS",
-        "Angular Material",
-        "Angular CLI",
-        "Jasmine",
-        "Webpack",
-        "npm",
-        "yarn"
+        "SAP Analytics (Data Services, Web Intelligence, Crystal Reports, Lumira, Strategy Management)",
+        "Pentaho (Hitachi Ventara)"
       ]
     },
     {
-      "name": "Others Technologies",
-      "keywords": [
-        "Play Framework (Scala)",
-        "guice",
-        "thymeleaf",
-        "Serverless (AWS lambda)",
-        "NestJS",
-        "expressJS",
-        "gulp",
-        "Bootstrap",
-        "Redis"
-      ]
+        "name": "Software Architecture and Management",
+        "level": "Advanced",
+        "keywords": [
+          "Structurizr",
+          "Adobe XD",
+          "Zeplin",
+          "Attlasian Tools (Jira, Confluence, bitbucket, Trello)",
+          "Slack bots",
+          "GitHub"
+        ]
     },
-    {
-      "name": "Programming Languages",
-      "keywords": [
-        "Java",
-        "TypeScript",
-        "JavaScript",
-        "Kotlin",
-        "Scala",
-        "Dart",
-        "HTML5",
-        "CSS",
-        "SCSS",
-        "SQL"
-      ]
-    },
-    {
-      "name": "Software Management Tools",
-      "keywords": [
-        "Attlasian Tools (JIRA, Confluence, bitbucket, Trello)",
-        "Slack bots",
-        "GitHub"
-      ]
-    },
+    // {
+    //   "name": "Others Technologies",
+    //   "keywords": [
+    //     "Play Framework (Scala)",
+    //     "guice",
+    //     "thymeleaf",
+    //     "Serverless (AWS lambda)",
+    //     "NestJS",
+    //     "expressJS",
+    //     "gulp",
+    //     "Bootstrap",
+    //     "Redis"
+    //   ]
+    // },
+    // {
+    //   "name": "Programming Languages",
+    //   "keywords": [
+    //     "Java",
+    //     "TypeScript",
+    //     "JavaScript",
+    //     "Kotlin",
+    //     "HTML5",
+    //     "CSS",
+    //     "SCSS",
+    //     "SQL",
+    //     "Python",
+    //     "Yaml"
+    //   ]
+    // },
     {
       "name": "DevOps Tools",
-      "level": "basic",
+      "level": "Advanced",
       "keywords": [
         "Jenkins",
         "Docker",
-        "GitHub Actions",
-        "AWS"
+        "Kubernetes",
+        "Helm",
+        "ELK (Elastic, Logstash, Kibana)",
+        "BitBucket Pipelines",
+        "AWS",
+        "Azure",
+        "Git",
+        "Bash",
+        "Linux",
+        "PowerShell"
       ]
     },
+    // {
+    //   "name": "Software Foundation",
+    //   "keywords": ["Git", "Bash", "Linux", "Docker"]
+    // },
     {
-      "name": "Worth Mentioning",
+      "name": "Old and Hobbies",
       "keywords": [
-        "Flutter",
-        "react",
-        "Ionic",
         "ASP.NET MVC",
-        "Portlet",
-        "Android",
-        "Networking Basics",
-        "Raspberry Pi"
+        "Network",
+        "Thermal Printers",
+        "Swift"
       ]
     }
   ],
@@ -221,25 +287,17 @@
       "keywords": []
     },
     {
-      "name": "Economy",
+      "name": "Hiking",
       "keywords": []
     }
   ],
   "projects": [
     {
-      "name": "Reactor Blog",
-      "description": "An experiment to create a pseudo framework using reactor-netty with a simple RESTful api without using any Spring Framework dependency",
-      "entity": "personal",
-      "url": "https://github.com/aboodz/reactor-blog",
-      "type": "application",
-      "highlights": []
-    },
-    {
-      "name": "My Personal JSON Resume",
-      "description": "This project aims to create my CV using JSONResume and preact. It provides an easy way to manage resume data, styles, and iterations. In fact, this Resume is created using this project.",
-      "entity": "personal",
-      "url": "https://github.com/aboodz/resume",
-      "type": "application",
+      "name": "Intro to application packaging in K8, Helm, Kustomize and Ship",
+      "description": "I have presented a remote session during the COVID-19 lockdown hosted by Dubai Cloud Native Apps meetup group. The session touched on several application packaging tools for k8s. It included both theory slides and coding demos.",
+      "entity": "public",
+      "url": "https://www.meetup.com/Dubai-Cloud-Native-Apps-Meetup/events/269650367/",
+      "type": "Meetup",
       "highlights": []
     }
   ]

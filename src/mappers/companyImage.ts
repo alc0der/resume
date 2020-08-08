@@ -1,11 +1,12 @@
 import beno from  "../assets/img/beno.png";
-import maf from  "../assets/img/mafh.svg";
-import mondia from  "../assets/img/mondia.svg";
+import roamworks from  "../assets/img/roamworks.png";
 import fujitsu from  "../assets/img/fujitsu.png";
+import mbc from  "../assets/img/mbc.png";
 
 export const companyImageMap: {[key: string]: string} = Object.freeze({
   beno: beno,
-  'Majid Al Futtaim': maf,
-  'Mondia': mondia,
-  'Fujitsu Consulting': fujitsu,
+  'Beno Technologies': beno,
+  'ROAMWORKS': roamworks,
+  'Fujitsu': fujitsu,
+  'MBC': mbc
 });

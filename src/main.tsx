@@ -22,7 +22,7 @@ const App = () => (
       <SummarySection resume={resume} />
       <WorkExperienceSection resume={resume} />
 
-      <div class="second-page" style="display: flex;">
+      <div style="display: flex;">
         <SkillsSection resume={resume} />
         <div class="more-info">
           <ProjectSection resume={resume} />
@@ -36,10 +36,10 @@ const App = () => (
       </div>
     </main>
     <footer>
-      <div>
+      {/* <div>
         Made by <a href="https://github.com/aboodz/resume">aboodz/resume</a> --
         <time dateTime={date.toISOString()}>{date.toLocaleDateString()}</time>
-      </div>
+      </div> */}
     </footer>
   </div>
 );
