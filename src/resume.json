@@ -35,7 +35,7 @@
       "website": "https://beno.com",
       "location": "Dubai, United Arab Emirates",
       "description": "Beno Technologies is a Dubai based startup company in the domain of rental cars",
-      "startDate": "2018-01-15",
+      "startDate": "2019-01-15",
       "summary": "  I have helped in containing legacy version of the application, and then shift the application to a completely new direction based on Global Distribution Systems (GDS).",
       "highlights": [
         "Designed system architecture and deployment landscape using Structurizr",
@@ -106,8 +106,8 @@
       "website": "https://mbc.net",
       "location": "Dubai, United Arab Emirates",
       "description": "MBC is the most popular tv channel in the middle east. The group holds many other tv channels, production companies and streaming services.",
-      "startDate": "2012-02-01",
-      "endDate": "2016-05-31",
+      "startDate": "2011-07-01",
+      "endDate": "2011-10-31",
       "summary": "I have worked on migrating micro-sites from old CMS to new CMS.",
       "highlights": [
         "Developed frontend websites with plain HTML and CSS",
@@ -134,8 +134,8 @@
       "url": "https://uowdubai.ac.ae",
       "area": "Information Technology Management",
       "studyType": "Master of Science",
-      "startDate": "2008-01-01",
-      "endDate": "2012-01-01",
+      "startDate": "2013-01-01",
+      "endDate": "2017-01-01",
       "gpa": "2.58",
       "courses": []
     }
