@@ -1,243 +1,165 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Ahmad Akilan",
-    "label": "Software Engineer | Backend | DevOps | Analytics",
-    "picture": "",
-    "email": "asakilan@live.com",
-    "phone": "+971 50 3336685",
-    "website": "",
-    "summary": "Software Engineer with eight years of professional experience. Through my career, I have worked on many fields and technologies including analytics, API development, DevOps, and a bit of frontend. My versatile skills helps me identify the right tool for the job. It helps me understand and connect with team members from different specialties. I am looking forward to applying my knowledge on software projects of a large scale and challenging nature.",
+    "email": "ahmad.akilan@icloud.com",
+    "label": "Software Engineer | IoT | Analytics | DevOps",
     "location": {
       "address": "",
-      "postalCode": "",
       "city": "Dubai",
       "countryCode": "AE",
-      "region": "Dubai"
+      "postalCode": "",
+      "region\"": "Dubai"
     },
+    "name": "Ahmad Akilan",
+    "phone": "+971 50 3336685",
+    "picture": "",
     "profiles": [
       {
         "network": "GitHub",
-        "username": "alc0der",
-        "url": "https://github.com/alc0der"
+        "url": "https://github.com/alc0der",
+        "username": "alc0der"
       },
       {
         "network": "LinkedIn",
-        "username": "alc0der",
-        "url": "https://linkedin.com/in/asakilan"
+        "url": "https://linkedin.com/in/asakilan",
+        "username": "alc0der"
       }
-    ]
+    ],
+    "summary": "Software Engineer with nine years of professional experience. I am passionate about software and computers. Through my career, I have worked on many fields and technologies including analytics, REST APIs, IoT, app development, and cloud computing. My versatile skills helps me identify the right tool for the job. It helps me understand and connect with team members from different specialties. As my career progressed, I’ve started leading teams and have more interaction with business and stakeholders. Nevertheless, I never feel uncomfortable rolling up my sleeves and help the team with coding. I enjoy mentoring juniors and watch them grow. I have given many presentations about technical and non-technical presentations. I am looking forward to applying my knowledge to projects of a large scale and challenging nature that I can overcome and learn from.",
+    "website": ""
   },
-  "work": [
-    {
-      "name": "Beno Technologies",
-      "position": "Software Engineering Lead",
-      "website": "https://beno.com",
-      "location": "Dubai, United Arab Emirates",
-      "description": "Beno Technologies is a Dubai based startup company in the domain of rental cars",
-      "startDate": "2019-01-15",
-      "summary": "  I have helped in containing legacy version of the application, and then shift the application to a completely new direction based on Global Distribution Systems (GDS).",
-      "highlights": [
-        "Designed system architecture and deployment landscape using Structurizr",
-        "Conducted code reviews for backend (Spring), frontend (Angular), and Android",
-        "Guided developers into improving coding practice with testing, mocking, and documenting",
-        "Migrated Infrastructure from Multiple AWS Regions to Bahrain Region",
-        "Maintained CICD pipelines, and AWS administration "
-      ]
-    },
-    {
-      "name": "ROAMWORKS",
-      "position": "Software Engineering Lead",
-      "website": "https://roamworks.com",
-      "location": "Dubai, United Arab Emirates",
-      "description": "ROAMWORKS is a Dubai-Germany based company ",
-      "startDate": "2018-01-01",
-      "endDate": "2019-01-09",
-      "summary": "I have led the department during time of technology migration towards micro-services event-driven architecture.",
-      "highlights": [
-        "Supported the development of micro-services through automation of builds, integration testing, deployment, and configuration",
-        "Developed IoT data ingestion micro-service using Spring Cloud Stream",
-        "Developed event driven micro-services that utilize Azure EventHub",
-        // "Developed customizations and extensions for ThingsBoard",
-        "Wrapped legacy applications in Docker containers",
-        "Created bash scripts and Jenkins pipelines to automate micro-services deployment",
-        // "Monitored applications using Azure Logs Analytics"
-      ]
-    },
-    {
-      "name": "ROAMWORKS",
-      "position": "BI Software Engineer",
-      "website": "https://roamworks.com",
-      "location": "Dubai, United Arab Emirates",
-      "description": "ROAMWORKS is a Dubai-Germany based company 15+ years company in the field of M2M and IoT. They are solution provider for large entities such as DEWA, and Emirates",
-      "startDate": "2012-08-02",
-      "endDate": "2016-12-31",
-      "summary": "I was tasked to replace legacy analytics stack with a new open source based stack. The new analytics stack was successfully applied deployments across the landscape. The new stack allowed analytics for more than 2000 vehicles.",
-      "highlights": [
-        "Created powershell scripts to automate SSRS deployments",
-        "Developed a new custom web portal for reports on top of SSRS's reports portal",
-        "Used ELK to optimize Database and ETL performance",
-        "Developed complex BI reports with complex SQL",
-        "Developed a large data warehouse for fleet management IoT analytics"
-      ]
-    },
-    {
-      "name": "Fujitsu",
-      "position": "IT Consultant",
-      "website": "https://fujitsu.com",
-      "location": "Al Ain, United Arab Emirates",
-      "description": "Fujitsu is one of the largest technology providers in Japan and worldwide. Their profile ranges from hardware to IT services.",
-      "startDate": "2012-02-01",
-      "endDate": "2016-05-31",
-      "summary": "I have delivered a large enterprise implementation project of SAP Analytics and SAP EPM suits",
-      "highlights": [
-        "Designed, implemented, and manged code customization for SAP Performance Management",
-        // "Assisted in re-engineering business processes",
-        // "Integrated SAP Solutions with MS Office",
-        "Integrated SAP Analytics with MS Active Directory Kerberos",
-        "Managed software components life cycle with SAP Analytics LCM",
-        "Maintained DB schema design and migration changes for Oracle DB",
-        "Integration SAP Analytics with HP Monitoring"
-      ]
-    },
-    {
-      "name": "MBC",
-      "position": "Web Developer",
-      "website": "https://mbc.net",
-      "location": "Dubai, United Arab Emirates",
-      "description": "MBC is the most popular tv channel in the middle east. The group holds many other tv channels, production companies and streaming services.",
-      "startDate": "2011-07-01",
-      "endDate": "2011-10-31",
-      "summary": "I have worked on migrating micro-sites from old CMS to new CMS.",
-      "highlights": [
-        "Developed frontend websites with plain HTML and CSS",
-        "UI test automation using SeleniumHQ tools"
-      ]
-    }
-  ],
   "education": [
     {
-      "institution": "American University of Sharjah | Sharjah, United Arab Emirates",
-      "url": "https://aus.edu",
-      "area": "Computer Engineering",
-      "studyType": "Bachelor of Science",
-      "startDate": "2008-01-01",
-      "endDate": "2012-01-01",
+      "area": "Information Technology Management",
+      "courses": [],
+      "endDate": "2017-01-01",
       "gpa": "2.58",
+      "institution": "University of Wollongong | Dubai, United Arab Emirates",
+      "startDate": "2013-01-01",
+      "studyType": "Master of Science",
+      "url": "https://uowdubai.ac.ae"
+    },
+    {
+      "area": "Computer Engineering",
       "courses": [
         "CMP305 - Data Structures and Algorithms",
         "CMP352 - Human Computer Interaction"
-      ]
+      ],
+      "endDate": "2012-01-01",
+      "gpa": "2.58",
+      "institution": "American University of Sharjah | Sharjah, United Arab Emirates",
+      "startDate": "2008-01-01",
+      "studyType": "Bachelor of Science",
+      "url": "https://aus.edu"
+    }
+  ],
+  "interests": [
+    {
+      "keywords": [],
+      "name": "Technology"
     },
     {
-      "institution": "University of Wollongong | Dubai, United Arab Emirates",
-      "url": "https://uowdubai.ac.ae",
-      "area": "Information Technology Management",
-      "studyType": "Master of Science",
-      "startDate": "2013-01-01",
-      "endDate": "2017-01-01",
-      "gpa": "2.58",
-      "courses": []
+      "keywords": [],
+      "name": "Video Games"
+    },
+    {
+      "keywords": [],
+      "name": "Hiking"
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "native",
+      "language": "Arabic"
+    },
+    {
+      "fluency": "fluent",
+      "language": "English"
+    }
+  ],
+  "projects": [
+    {
+      "description": "I have presented a remote session during the COVID-19 lockdown hosted by Dubai Cloud Native Apps meetup group. The session touched on several application packaging tools for k8s. It included both theory slides and coding demos.",
+      "entity": "public",
+      "highlights": [],
+      "name": "Intro to application packaging in K8, Helm, Kustomize and Ship",
+      "type": "Meetup",
+      "url": "https://www.meetup.com/Dubai-Cloud-Native-Apps-Meetup/events/269650367/"
+    },
+    {
+      "description": "Introductory training to ML and AI - 2016",
+      "entity": "",
+      "highlights": [],
+      "name": "Data Science Bootcamp",
+      "type": "Course",
+      "url": "https://www.linkedin.com/showcase/the-school-of-data-science/about/"
+    },
+    {
+      "description": "SAP Official Training for SAP Strategy Management - 2013",
+      "entity": "",
+      "highlights": [],
+      "name": "SSM310_95 SBO Strategy Management",
+      "type": "Course",
+      "url": null
     }
   ],
   "skills": [
     {
-      "name": "Software Development Techniques",
       "keywords": [
+        "Event Driven",
+        "Micro-services Architecture",
         "Reactive Programming",
         "Domain Driven Design",
         "Object Oriented Programming",
         "Functional Programming",
         "Test Driven Development",
-        "Behavior Driven Development",
-        "Internationalization and Localization",
-        "Micro-services Architecture",
-        "Event Driven",
-        "Restful Web Services",
-
-
-        // Analytics Development Techniques
-        "Data Vault",
         "Data Lakes",
-        "Data Marts",
-        "Lambda Architecture"
-      ]
+        "Lambda Architecture",
+        "Data Vault",
+        "Data Marts"
+      ],
+      "name": "Software Architectures"
     },
-    // {
-    //   "name": "Analytics Development Techniques",
-    //   "level": "Advanced",
-    //   "keywords": [
-    //     "Data Vault",
-    //     "Data Lakes",
-    //     "Data Marts",
-    //     "Lambda Architecture"
-    //   ]
-    // },
     {
-      "name": "Main Backend Stack",
-      "level": "Advanced",
       "keywords": [
-        "Gradle",
-        "Spring (boot, WebFlux, Cloud, Web, Security, data, core)",
-        "SQL (MySQL, Postgres)",
-        "MongoDB",
-        "OAuth",
         "MQTT",
-        "Kafka"
-      ]
+        "Kafka",
+        "Azure Event Hub",
+        "Azure IoT Hub",
+        "Thingsboard",
+        "Kaitai",
+        "ANTLR",
+        "Timeseries Databases (TimescaleDB)",
+        "Pentaho (Project Hop)",
+        "Spark",
+        "Azure Stream Analytics",
+        "Avro"
+      ],
+      "name": "IoT Related Technologies"
     },
     {
-      "name": "Analytics Development Tools",
-      "level": "Advanced",
       "keywords": [
-        "SAP Analytics (Data Services, Web Intelligence, Crystal Reports, Lumira, Strategy Management)",
-        "Pentaho (Hitachi Ventara)"
-      ]
+        "Envotech Eseals",
+        "Jointech Eseals",
+        "Vega Level Sensors",
+        "Falcom Tracking Devices",
+        "Teltonika Tracking Devices",
+        "Vutlan Telecom Monitoring"
+      ],
+      "name": "IoT Devices"
     },
     {
-        "name": "Software Architecture and Management",
-        "level": "Advanced",
-        "keywords": [
-          "Structurizr",
-          "Adobe XD",
-          "Zeplin",
-          "Attlasian Tools (Jira, Confluence, bitbucket, Trello)",
-          "Slack bots",
-          "GitHub"
-        ]
+      "keywords": [
+        "Structurizr",
+        "Attlasian Tools (Jira, Confluence, bitbucket, Trello)",
+        "Slack bots",
+        "GitHub",
+        "Adobe XD",
+        "Zeplin"
+      ],
+      "name": "Software Architecture and Management"
     },
-    // {
-    //   "name": "Others Technologies",
-    //   "keywords": [
-    //     "Play Framework (Scala)",
-    //     "guice",
-    //     "thymeleaf",
-    //     "Serverless (AWS lambda)",
-    //     "NestJS",
-    //     "expressJS",
-    //     "gulp",
-    //     "Bootstrap",
-    //     "Redis"
-    //   ]
-    // },
-    // {
-    //   "name": "Programming Languages",
-    //   "keywords": [
-    //     "Java",
-    //     "TypeScript",
-    //     "JavaScript",
-    //     "Kotlin",
-    //     "HTML5",
-    //     "CSS",
-    //     "SCSS",
-    //     "SQL",
-    //     "Python",
-    //     "Yaml"
-    //   ]
-    // },
     {
-      "name": "DevOps Tools",
-      "level": "Advanced",
       "keywords": [
         "Jenkins",
         "Docker",
@@ -251,54 +173,108 @@
         "Bash",
         "Linux",
         "PowerShell"
-      ]
+      ],
+      "name": "Cloud and DevOps"
     },
-    // {
-    //   "name": "Software Foundation",
-    //   "keywords": ["Git", "Bash", "Linux", "Docker"]
-    // },
     {
-      "name": "Old and Hobbies",
       "keywords": [
-        "ASP.NET MVC",
-        "Network",
-        "Thermal Printers",
-        "Swift"
-      ]
+        "SAP Analytics (Data Services, Web Intelligence, Crystal Reports, Lumira, Strategy Management)",
+        "SQL Server",
+        "Oracle DB",
+        "MongoDB",
+        "Postgres"
+      ],
+      "name": "Misc."
     }
   ],
-  "languages": [
+  "work": [
     {
-      "language": "Arabic",
-      "fluency": "Native"
+      "description": "Beno Technologies is a Dubai based startup company in the domain of rental cars",
+      "highlights": [
+        "Lead the team as scrum master of the next-gen mobile applications and APIs",
+        "Participated in the process of product development with the product owner, the CTO, and other stakeholders",
+        "Meet with stakeholders, investors, partners, and vendors to represent the technical team and provide technical consultation",
+        "Recruited and helped app (web and mobile) developers though the process of app development, deployment, and rollout",
+        "Lead the backend team and participated in everything from architecture, code reviews, and even refactoring difficult code",
+        "Administrated company's cloud-based resources on AWS and other SaaS services"
+      ],
+      "location": "Dubai, United Arab Emirates",
+      "name": "Beno Technologies",
+      "position": "Software Engineering Lead",
+      "startDate": "2020-01-15T00:00:00Z",
+      "summary": "I was recruited to Beno (start-up) to oversee a complication with outsource company that have built the first version of the mobile app and APIs. I have managed to seize control over the code base and application from the outsource company, and contain the application to minimize cost.  Then, we have moved the application to a completely new cloud-based direction based on Global Distribution Systems (Travelport).",
+      "website": "https://beno.com"
     },
     {
-      "language": "English",
-      "fluency": "Fluent"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Technology",
-      "keywords": []
+      "description": "ROAMWORKS is a Dubai-Germany based company",
+      "endDate": "2020-01-09T00:00:00Z",
+      "highlights": [
+        "Designed and architected end-to-end IoT solution using Azure IoT platform, Spring, and Angular for cargo security that leveraged eseal devices and live monitoring with server sent events",
+        "Designed rapid IoT application using Thingsboard platform for cellular tower monitoring",
+        "I have written IoT binary data parsers with Kaitai and ascii data parsers with ANTLR",
+        "Developed event driven live data apps that utilize Azure IoTHub and Azure Event Hub",
+        "Built data lake for IoT raw data stored in avro files in Azure Storage",
+        "Built dashboards in Azure for optimizing resource consumption",
+        "Built Jenkins pipelines to push micro-services containers to Azure Containers Registry and finally deploy them to Azure Kubernetes Services"
+      ],
+      "location": "Dubai, United Arab Emirates",
+      "name": "ROAMWORKS",
+      "position": "Software Engineering Lead",
+      "startDate": "2019-01-01T00:00:00Z",
+      "summary": "After the success in my previous rule, I was promoted to Software Engineering Lead to lead both the IoT team, analytics, and QA team. We have implemented few projects using tools such as Azure IoT platform, ThingsBoard, and Flespi. I have led technological shift to improve practices on cloud-based, containers-based, DevOps, testing automation and monitoring",
+      "website": "https://roamworks.com"
     },
     {
-      "name": "Video Games",
-      "keywords": []
+      "description": "ROAMWORKS is a Dubai-Germany based company 15+ years company in the field of M2M and IoT. They are solution provider for large entities such as DEWA, and Emirates",
+      "endDate": "2019-01-01T00:00:00Z",
+      "highlights": [
+        "Designed and architected end-to-end DWH for IoT application using open-source Pentaho Data Integration (Project Hop now)",
+        "Developed R&D on Analytics platform including Pentaho (Hitachi Ventara), Qlik, Tableau, Power BI, ZoomData, and Sisense",
+        "Created powershell scripts to automate SSRS deployments and wrap ETL jobs execution",
+        "Optimized SQL query performance by applying advanced concepts of in-memory, columnstore, and indexed views (materialized views)",
+        "Developed heavy ETL data workloads on IoT data with advanced concepts of virtual data warehouse, historical staging, data vault, and bridge table",
+        "Developed a multi-tenant data warehouse for fleet management IoT analytics using schemas to separate tenants",
+        "Participated in in company newsletter, blog, employees training and internal VoD tutorials"
+      ],
+      "location": "Dubai, United Arab Emirates",
+      "name": "ROAMWORKS",
+      "position": "BI Software Engineer",
+      "startDate": "2016-08-02T00:00:00Z",
+      "summary": "After Fujitsu, I was recruited to ROAMWORKS to to have the task of replacing legacy analytics stack with a new open source based stack. The new analytics stack was successfully applied across the software landscape. The new stack allowed analytics for more than 2000 vehicles for several fleet management and tank monitoring customers.",
+      "website": "https://roamworks.com"
     },
     {
-      "name": "Hiking",
-      "keywords": []
-    }
-  ],
-  "projects": [
+      "description": "Fujitsu is one of the largest technology providers in Japan and worldwide. Their profile ranges from hardware to IT services.",
+      "endDate": "2016-05-31T00:00:00Z",
+      "highlights": [
+        "Trained BI end users in one-to-few and in one-to-many sessions",
+        "Educated directors and stakeholders into becoming data driven",
+        "Designed and implemented code customization for SAP Performance Management for business KPIs and scoreboards",
+        "Integrated SAP Analytics with MS Active Directory Kerberos",
+        "Managed software components life cycle with SAP Analytics LCM",
+        "Developed BI content using SAP Business Objects Webi, Crystal Reports, and Xcelsius (SAP Dashboards)",
+        "Developed ETL using SAP Data Services"
+      ],
+      "location": "Al Ain, United Arab Emirates",
+      "name": "Fujitsu",
+      "position": "IT Consultant",
+      "startDate": "2012-02-01T00:00:00Z",
+      "summary": "I have delivered a large enterprise implementation project of SAP Analytics and SAP EPM suits. The team included a cross-functional team from finance, performance management, strategic management, and IT.",
+      "website": "https://fujitsu.com"
+    },
     {
-      "name": "Intro to application packaging in K8, Helm, Kustomize and Ship",
-      "description": "I have presented a remote session during the COVID-19 lockdown hosted by Dubai Cloud Native Apps meetup group. The session touched on several application packaging tools for k8s. It included both theory slides and coding demos.",
-      "entity": "public",
-      "url": "https://www.meetup.com/Dubai-Cloud-Native-Apps-Meetup/events/269650367/",
-      "type": "Meetup",
-      "highlights": []
+      "description": "MBC is the most popular tv channel in the middle east. The group holds many other tv channels, production companies and streaming services.",
+      "endDate": "2011-10-31T00:00:00Z",
+      "highlights": [
+        "Developed frontend websites with plain HTML and CSS",
+        "UI test automation using SeleniumHQ tools"
+      ],
+      "location": "Dubai, United Arab Emirates",
+      "name": "MBC",
+      "position": "Web Developer",
+      "startDate": "2011-07-01T00:00:00Z",
+      "summary": "I have worked on migrating micro-sites from old CMS to new CMS.",
+      "website": "https://mbc.net"
     }
   ]
 }

@@ -21,13 +21,13 @@ const App = () => (
 
       <SummarySection resume={resume} />
       <WorkExperienceSection resume={resume} />
+      <EducationSection resume={resume} />
+      <br/>
 
       <div style="display: flex;">
         <SkillsSection resume={resume} />
-        <div class="more-info">
+        <div class="more-info">          
           <ProjectSection resume={resume} />
-
-          <EducationSection resume={resume} />
 
           <LanguageSection resume={resume} />
 

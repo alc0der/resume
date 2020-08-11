@@ -30,5 +30,5 @@ function extractLanguages(resume: ResumeSchema): LanguageData[] {
 
 export const LanguageSection = flow(
   extractorComponent(extractLanguages),
-  resumeSection
+  resumeSection("Languages")
 )(Language);

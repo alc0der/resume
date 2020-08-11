@@ -12,7 +12,7 @@ type ProjectType = 'volunteering' | 'presentation' | 'talk' | 'application' | 'c
 interface ProjectProps {
   name: string;
   description: string;
-  url: URL;
+  url?: URL;
   type: ProjectType;
   highlights: string[];
 }
@@ -24,10 +24,10 @@ class Project extends Component<ProjectProps> {
       <article>
         <header>
           <h3>{name}</h3>
-          <small>
+          {url && <small>
             {url.toString().includes('github') && <FontAwesomeIcon icon={faGithub} />}&nbsp;
             <a href={url.toString()}>{url.toString()}</a>
-          </small>
+          </small>}
         </header>
         <p>{description}</p>
       </article>
@@ -41,7 +41,7 @@ function extractProjects(resume: ResumeSchema): ProjectProps[] {
     name: p.name,
     description: p.description,
     type: p.type as ProjectType,
-    url: new URL(p.url),
+    url: p.url? new URL(p.url) : null,
     highlights: p.highlights
   }));
 }
